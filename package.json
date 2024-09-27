@@ -3,19 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node express.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev1": "nodemon express.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.7",
     "standard": "^17.1.2"
   },
   "dependencies": {
     "cors": "2.8.5",
-    "express": "4.21.0"
+    "express": "4.21.0",
+    "zod": "3.23.8"
   },
   "eslintConfig": {
     "extends": "standard"
